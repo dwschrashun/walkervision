@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Walkervision",
+  "description": "Scott Walker to Scott Walker Converter",
+  "version": "1.0",
+  "default_locale": "en",
+  "content_scripts" : [{
+      "matches" : [],
+      "js": [],
+      "run_at": "document_end",
+    }],
+
+  "browser_action": {
+    "default_icon": "",
+    "default_popup": ""
+  },
+  "permissions": [
+    "tabs",
+    "webRequest",
+  ]
+}
